@@ -1,0 +1,4 @@
+/home/timpo/ClionProjects/finder/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/home/timpo/ClionProjects/finder/cmake-build-debug/CMakeFiles/finder.dir
+/home/timpo/ClionProjects/finder/cmake-build-debug/CMakeFiles/edit_cache.dir
+/home/timpo/ClionProjects/finder/cmake-build-debug/CMakeFiles/finder_autogen.dir
