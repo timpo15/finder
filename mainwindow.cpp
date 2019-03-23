@@ -9,6 +9,7 @@
 #include <QFileInfo>
 #include <QMessageBox>
 #include <iostream>
+#include <QtCore/QFileSystemWatcher>
 
 MainWindow::MainWindow(QWidget *parent)
         : QMainWindow(parent), ui(new Ui::MainWindow) {
@@ -21,6 +22,7 @@ MainWindow::MainWindow(QWidget *parent)
     connect(ui->findButton, SIGNAL(released()),this, SLOT(findFiles()));
     connect(this, SIGNAL(findFiles(QString)), index, SLOT(findFilesStupid(QString)));
     connect(index, SIGNAL(ready(QVector<QString>)), this, SLOT(showResult(QVector<QString>)));
+    connect(&watcher, SIGNAL(directoryChanged(const QString &)), index, SLOT(startIndexing(QString)));
     ui->statusLabel->setText(QString("waiting directory..."));
 
 }
@@ -35,7 +37,10 @@ void MainWindow::handleStartButton() {
                                                  QFileDialog::ShowDirsOnly | QFileDialog::DontResolveSymlinks);
     ui->statusLabel->setText(QString("indexing..."));
     if (!rootPath.isEmpty()) {
+        watcher.removePaths(watcher.files());
+        watcher.removePaths(watcher.directories());
         ui->resultListWidget->clear();
+        watcher.addPath(rootPath);
         emit startIndexing(rootPath);
     }
 }

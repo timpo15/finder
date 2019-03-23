@@ -3,6 +3,7 @@
 
 #include <QMainWindow>
 #include <memory>
+#include <QtCore/QFileSystemWatcher>
 #include "Index.h"
 
 
@@ -30,7 +31,10 @@ signals:
 
 private:
     Ui::MainWindow *ui;
-    QString rootPath;};
+    QString rootPath;
+    QFileSystemWatcher watcher;
+
+};
 
 
 #endif // MAINWINDOW_H

@@ -200,6 +200,7 @@ CMakeFiles/finder.dir/finder_autogen/mocs_compilation.cpp.o
  /home/timpo/ClionProjects/finder/mainwindow.h
  /home/timpo/ClionProjects/finder/stupid_finder.h
  /usr/include/qt/QtCore/QArgument
+ /usr/include/qt/QtCore/QFileSystemWatcher
  /usr/include/qt/QtCore/QHash
  /usr/include/qt/QtCore/QObject
  /usr/include/qt/QtCore/QVector
@@ -223,6 +224,7 @@ CMakeFiles/finder.dir/finder_autogen/mocs_compilation.cpp.o
  /usr/include/qt/QtCore/qdebug.h
  /usr/include/qt/QtCore/qfile.h
  /usr/include/qt/QtCore/qfiledevice.h
+ /usr/include/qt/QtCore/qfilesystemwatcher.h
  /usr/include/qt/QtCore/qflags.h
  /usr/include/qt/QtCore/qgenericatomic.h
  /usr/include/qt/QtCore/qglobal.h
@@ -314,6 +316,7 @@ CMakeFiles/finder.dir/main.cpp.o
  /home/timpo/ClionProjects/finder/TrigramsHolder.h
  /home/timpo/ClionProjects/finder/main.cpp
  /home/timpo/ClionProjects/finder/mainwindow.h
+ /usr/include/qt/QtCore/QFileSystemWatcher
  /usr/include/qt/QtCore/QHash
  /usr/include/qt/QtCore/QObject
  /usr/include/qt/QtCore/QVector
@@ -339,6 +342,7 @@ CMakeFiles/finder.dir/main.cpp.o
  /usr/include/qt/QtCore/qeventloop.h
  /usr/include/qt/QtCore/qfile.h
  /usr/include/qt/QtCore/qfiledevice.h
+ /usr/include/qt/QtCore/qfilesystemwatcher.h
  /usr/include/qt/QtCore/qflags.h
  /usr/include/qt/QtCore/qgenericatomic.h
  /usr/include/qt/QtCore/qglobal.h
@@ -437,6 +441,7 @@ CMakeFiles/finder.dir/mainwindow.cpp.o
  /home/timpo/ClionProjects/finder/mainwindow.h
  /usr/include/qt/QtCore/QDir
  /usr/include/qt/QtCore/QFileInfo
+ /usr/include/qt/QtCore/QFileSystemWatcher
  /usr/include/qt/QtCore/QHash
  /usr/include/qt/QtCore/QObject
  /usr/include/qt/QtCore/QVariant
@@ -466,6 +471,7 @@ CMakeFiles/finder.dir/mainwindow.cpp.o
  /usr/include/qt/QtCore/qfile.h
  /usr/include/qt/QtCore/qfiledevice.h
  /usr/include/qt/QtCore/qfileinfo.h
+ /usr/include/qt/QtCore/qfilesystemwatcher.h
  /usr/include/qt/QtCore/qflags.h
  /usr/include/qt/QtCore/qgenericatomic.h
  /usr/include/qt/QtCore/qglobal.h

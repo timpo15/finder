@@ -199,6 +199,7 @@ CMakeFiles/finder.dir/finder_autogen/mocs_compilation.cpp.o: finder_autogen/mocs
 CMakeFiles/finder.dir/finder_autogen/mocs_compilation.cpp.o: ../mainwindow.h
 CMakeFiles/finder.dir/finder_autogen/mocs_compilation.cpp.o: ../stupid_finder.h
 CMakeFiles/finder.dir/finder_autogen/mocs_compilation.cpp.o: /usr/include/qt/QtCore/QArgument
+CMakeFiles/finder.dir/finder_autogen/mocs_compilation.cpp.o: /usr/include/qt/QtCore/QFileSystemWatcher
 CMakeFiles/finder.dir/finder_autogen/mocs_compilation.cpp.o: /usr/include/qt/QtCore/QHash
 CMakeFiles/finder.dir/finder_autogen/mocs_compilation.cpp.o: /usr/include/qt/QtCore/QObject
 CMakeFiles/finder.dir/finder_autogen/mocs_compilation.cpp.o: /usr/include/qt/QtCore/QVector
@@ -222,6 +223,7 @@ CMakeFiles/finder.dir/finder_autogen/mocs_compilation.cpp.o: /usr/include/qt/QtC
 CMakeFiles/finder.dir/finder_autogen/mocs_compilation.cpp.o: /usr/include/qt/QtCore/qdebug.h
 CMakeFiles/finder.dir/finder_autogen/mocs_compilation.cpp.o: /usr/include/qt/QtCore/qfile.h
 CMakeFiles/finder.dir/finder_autogen/mocs_compilation.cpp.o: /usr/include/qt/QtCore/qfiledevice.h
+CMakeFiles/finder.dir/finder_autogen/mocs_compilation.cpp.o: /usr/include/qt/QtCore/qfilesystemwatcher.h
 CMakeFiles/finder.dir/finder_autogen/mocs_compilation.cpp.o: /usr/include/qt/QtCore/qflags.h
 CMakeFiles/finder.dir/finder_autogen/mocs_compilation.cpp.o: /usr/include/qt/QtCore/qgenericatomic.h
 CMakeFiles/finder.dir/finder_autogen/mocs_compilation.cpp.o: /usr/include/qt/QtCore/qglobal.h
@@ -313,6 +315,7 @@ CMakeFiles/finder.dir/main.cpp.o: ../Index.h
 CMakeFiles/finder.dir/main.cpp.o: ../TrigramsHolder.h
 CMakeFiles/finder.dir/main.cpp.o: ../main.cpp
 CMakeFiles/finder.dir/main.cpp.o: ../mainwindow.h
+CMakeFiles/finder.dir/main.cpp.o: /usr/include/qt/QtCore/QFileSystemWatcher
 CMakeFiles/finder.dir/main.cpp.o: /usr/include/qt/QtCore/QHash
 CMakeFiles/finder.dir/main.cpp.o: /usr/include/qt/QtCore/QObject
 CMakeFiles/finder.dir/main.cpp.o: /usr/include/qt/QtCore/QVector
@@ -338,6 +341,7 @@ CMakeFiles/finder.dir/main.cpp.o: /usr/include/qt/QtCore/qdebug.h
 CMakeFiles/finder.dir/main.cpp.o: /usr/include/qt/QtCore/qeventloop.h
 CMakeFiles/finder.dir/main.cpp.o: /usr/include/qt/QtCore/qfile.h
 CMakeFiles/finder.dir/main.cpp.o: /usr/include/qt/QtCore/qfiledevice.h
+CMakeFiles/finder.dir/main.cpp.o: /usr/include/qt/QtCore/qfilesystemwatcher.h
 CMakeFiles/finder.dir/main.cpp.o: /usr/include/qt/QtCore/qflags.h
 CMakeFiles/finder.dir/main.cpp.o: /usr/include/qt/QtCore/qgenericatomic.h
 CMakeFiles/finder.dir/main.cpp.o: /usr/include/qt/QtCore/qglobal.h
@@ -436,6 +440,7 @@ CMakeFiles/finder.dir/mainwindow.cpp.o: ../mainwindow.cpp
 CMakeFiles/finder.dir/mainwindow.cpp.o: ../mainwindow.h
 CMakeFiles/finder.dir/mainwindow.cpp.o: /usr/include/qt/QtCore/QDir
 CMakeFiles/finder.dir/mainwindow.cpp.o: /usr/include/qt/QtCore/QFileInfo
+CMakeFiles/finder.dir/mainwindow.cpp.o: /usr/include/qt/QtCore/QFileSystemWatcher
 CMakeFiles/finder.dir/mainwindow.cpp.o: /usr/include/qt/QtCore/QHash
 CMakeFiles/finder.dir/mainwindow.cpp.o: /usr/include/qt/QtCore/QObject
 CMakeFiles/finder.dir/mainwindow.cpp.o: /usr/include/qt/QtCore/QVariant
@@ -465,6 +470,7 @@ CMakeFiles/finder.dir/mainwindow.cpp.o: /usr/include/qt/QtCore/qeventloop.h
 CMakeFiles/finder.dir/mainwindow.cpp.o: /usr/include/qt/QtCore/qfile.h
 CMakeFiles/finder.dir/mainwindow.cpp.o: /usr/include/qt/QtCore/qfiledevice.h
 CMakeFiles/finder.dir/mainwindow.cpp.o: /usr/include/qt/QtCore/qfileinfo.h
+CMakeFiles/finder.dir/mainwindow.cpp.o: /usr/include/qt/QtCore/qfilesystemwatcher.h
 CMakeFiles/finder.dir/mainwindow.cpp.o: /usr/include/qt/QtCore/qflags.h
 CMakeFiles/finder.dir/mainwindow.cpp.o: /usr/include/qt/QtCore/qgenericatomic.h
 CMakeFiles/finder.dir/mainwindow.cpp.o: /usr/include/qt/QtCore/qglobal.h
